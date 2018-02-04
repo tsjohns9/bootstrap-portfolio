@@ -41,6 +41,7 @@ a:hover {
 
 nav {
   border-bottom: solid 2px #ccc;
+  margin-bottom: 40px;
 }
 
 nav h1 {
@@ -118,3 +119,10 @@ nav ul li:last-child {
   margin-right: 0;
 }
 
+.btn {
+  background-color: #4aaaa5;
+  color: white;
+  font-size: 14px;
+  padding: 14px 32px;
+  border-radius: 0;
+}
