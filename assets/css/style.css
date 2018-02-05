@@ -27,6 +27,15 @@ a:hover {
   color: rgb(54, 54, 54)
 }
 
+.container {
+  padding: 0;
+}
+
+#content {
+  min-height: calc(100vh - 60px);
+  padding-bottom: 40px;
+}
+
 /* Navbar */
 
 .navbar {
@@ -71,7 +80,7 @@ nav ul li:last-child {
   border: solid 1px #ddd;
   line-height: 30px;
   padding: 40px 28px;
-  width: 650px;
+  width: 95%;
 }
 
 #main-content h1 {
@@ -93,8 +102,7 @@ nav ul li:last-child {
 #sidebar {
   padding: 28px;
   border: solid 1px #ddd;
-  width: 270px;
-  height: 175px;
+  width: 95%;
 }
 
 #sidebar h2 {
@@ -119,6 +127,8 @@ nav ul li:last-child {
   margin-right: 0;
 }
 
+/* Contact Page */
+
 .btn {
   background-color: #4aaaa5;
   color: white;
@@ -126,3 +136,15 @@ nav ul li:last-child {
   padding: 14px 32px;
   border-radius: 0;
 }
+
+/* footer */
+
+footer {
+  background-color: #666;
+  border-top: solid 5px #4aaaa5;
+  color: rgb(182, 182, 182);
+  height: 60px;
+  padding: 25px 0;
+  text-align: center;
+}
+
