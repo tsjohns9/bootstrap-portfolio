@@ -97,7 +97,6 @@ nav ul li:last-child {
 #profile-pic {
   float: left;
   height: 20rem;
-  margin-right: 2rem;
   width: 20rem;
 }
 
@@ -142,6 +141,5 @@ footer {
   border-top: solid .5rem #4aaaa5;
   color: rgb(182, 182, 182);
   height: 6rem;
-  padding: 2.5rem 0;
   text-align: center;
 }
