@@ -18,7 +18,7 @@ h1,h2,h3 {
   color: #4aaaa5;
   font-family: 'Georgia', Times, Times New Roman, serif; 
   margin: 0;
-  font-size: 3.2rem;
+  font-size: 2.8rem;
 }
 
 p, form {
@@ -42,6 +42,11 @@ a:hover {
   padding-bottom: 4rem;
 }
 
+.row {
+  margin-left: 0;
+  margin-right: 0;
+}
+
 /* Navbar */
 
 .navbar {
@@ -57,35 +62,32 @@ nav {
 nav h1 {
   background: #4aaaa5;
   color: white;
+  margin-bottom: 1rem;
   padding: 2.5rem 3.0rem;
+  width: 100%;
 }
 
 nav ul li {
-  padding: 0 1rem;
+  padding-left: 3rem;
 }
 
-nav ul li:first-child {
-  padding-left: 0;
-  padding-right: 1rem;
+.navbar-toggler {
+  margin: 0 auto;
+  margin-bottom: 1rem;
 }
 
-nav ul li:last-child {
-  padding-left: 1rem;
-  padding-right: 0;
-}
-
-.li-border {
-  border-right: solid .1rem #ddd;
-  border-left: solid .1rem #ddd;
+.navbar-toggler-icon {
+  width: 2.5rem;
+  height: 2.5rem;
 }
 
 /* Main Content */
 
 #main-content {
-  border: solid 1.rem #ddd;
-  line-height: 3.5rem;;
-  padding: 4rem 2.8rem;
-  width: 95%;
+  border: solid .1rem #ddd;
+  line-height: 3.2rem;;
+  padding: 2rem;
+  margin-bottom: 3rem;
 }
 
 #main-content h1 {
@@ -94,35 +96,29 @@ nav ul li:last-child {
   padding-bottom: 2rem;
 }
 
-#profile-pic {
-  float: left;
+.profile-pic-container {
   height: 20rem;
+}
+
+#profile-pic {
+  height: 100%;
   width: 20rem;
 }
 
 /* Sidebar */
 
 #sidebar {
-  padding: 2.8rem;
-  border: solid .1rem #ddd;
-  margin-left: 5%;
-}
-
-#h2-bottom-border {
-  height: .2rem;
-  background-color: #ddd;
-  width: 85%;
-  margin: 2.5rem auto;
+  background: #fff;
+  border: solid 1px #ddd;
+  padding: 22px;
+  width: 100%;
 }
 
 #sidebar h2 {
-  font-size: 2.4rem;
-  text-align: center;
-}
-
-#social-image-container {
-  display: table;
-  margin: 0 auto;
+  border-bottom: solid 2px #ddd;
+  font-size: 2.2rem;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
 }
 
 #social-image-container ul li {
